@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+}
+.contenedor{
+    margin: 0px;
+    background: rgb(117, 236, 147);
+    background: radial-gradient(circle rgba(115, 155, 124, 0.226) 0%, rgb(197, 215, 235) 100%);
+}
+.cuerpo{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+}
+.cuerpo h1,h2,label,input{
+    margin-bottom: 20px;
+    border: 0px solid black;
+    border-radius: 45px;
+}
+.cuerpo input{
+    background: rgb(67, 92, 73);
+}
